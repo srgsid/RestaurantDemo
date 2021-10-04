@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/all.min.css" />
+	<link rel="stylesheet" href="css/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/aos.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#headerNav" data-bs-offset="150" tabindex="0">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/all.min.js"></script>
+
+	<header class="">
+		<div class="
+					container
+					d-flex
+					justify-content-lg-between justify-content-between
+					align-item-center
+					flex-wrap
+				" id="info-header">
+			<div class="contact-info d-flex">
+				<div class="email ms-0 m-2 text-nowrap d-lg-block d-none">
+					<span><a href="#"><i class="far fa-envelope me-2"></i>Email:Info@Resturant.com</a></span>
+				</div>
+				<div class="telephone m-2 text-nowrap">
+					<span><a href="#"><i class="fas fa-phone-alt me-2"></i><span
+								class="d-sm-inline-block d-none">Telephone:</span>+1 800
+							234 5678</a></span>
+				</div>
+			</div>
+			<div class="header-icons d-flex">
+				<ul class="row d-none d-lg-flex flex-nowrap">
+					<li><i class="fab fa-facebook-f fa-lg fa-fw"></i></li>
+					<li><i class="fab fa-twitter fa-lg fa-fw"></i></li>
+					<li><i class="fab fa-dribbble fa-lg fa-fw"></i></li>
+					<li><i class="fab fa-behance fa-lg fa-fw"></i></li>
+					<li><i class="fas fa-rss fa-lg fa-fw"></i></li>
+				</ul>
+				<div class="btn">
+					<span class="text-uppercase text-nowrap"><a href="#">Book A Table</a></span>
+				</div>
+			</div>
+		</div>
+		<hr class="m-0 p-0 bg-white opacity-50" />
+		<nav class="navbar navbar-expand-xl navbar-dark bg-transparent p-0">
+			<div class="container">
+				<a class="navbar-brand my-2" href="#"><img class="brand" id="brand_logo" src="assets/main_logo.png"
+						alt="logo" /></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop" aria-expanded="true"
+					aria-label="Toggle navigation">
+					<i class="fas fa-bars fa-lg"></i>
+				</button>
+				<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop"
+					aria-labelledby="offcanvasWithBackdropLabel">
+					<div class="offcanvas-header">
+						<button type="button" class="btn-close text-reset border" data-bs-dismiss="offcanvas"
+							aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0 h-100" id="headerNav">
+							<li class="nav-item">
+								<a class="nav-link" href="#sec1">home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#sec2">about us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#sec3">offer</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#sec4">menu</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#sec6">team</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#sec7">blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#sec8">gallery</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#footer">contact</a>
+							</li>
+							<li class="nav-item search_Icon_Box order-first order-xl-last">
+								<div class="input-group search d-xl-none mb-3">
+									<input type="text" class="form-control rounded-start" placeholder="search.."
+										aria-label="search" aria-describedby="search-box" />
+									<button class="btn btn-outline-secondary rounded-end" type="button" id="search-btn">
+										Search
+									</button>
+								</div>
+								<span class="btn d-none d-xl-block rounded">
+									<i class="fas fa-search"></i>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="wrapper position-absolute top-0 start-0 end-0 botton-0">
+		<main class="overflow-hidden">
+			<section class="sec1 container-fluid g-0" id="sec1">
+				<div class="carousel slide carousel-fade" id="carouselFade" data-bs-ride="carousel"
+					data-bs-hover="false">
+					<div class="carousel-indicators mb-5">
+						<button type="button" data-bs-target="#carouselFade" data-bs-slide-to="0"
+							class="active carousel-btn" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselFade" data-bs-slide-to="1" aria-label="Slide 2"
+							class="carousel-btn"></button>
+						<button type="button" data-bs-target="#carouselFade" data-bs-slide-to="2" aria-label="Slide 3"
+							class="carousel-btn"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="carousel-caption">
+								<span class="carousel-heading">Welcome To</span>
+								<p class="text-uppercase my-2 d-none d-md-block">
+									<span class="fw-bold">DAWAT</span> Cafe and Resturent
+								</p>
+								<div class="btn border px-sm-5">
+									<span class="text-uppercase text-nowrap m-sm-1 mx-sm-2"><a href="#">reservation
+											now</a></span>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption">
+								<span class="carousel-heading">Our Menus</span>
+								<p class="text-uppercase my-2 d-none d-md-block">
+									see what's new today
+								</p>
+								<div class="btn border px-5">
+									<span class="text-uppercase text-nowrap my-1 mx-2"><a href="#">todays
+											menu</a></span>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption">
+								<span class="carousel-heading">Get Ready</span>
+								<p class="text-uppercase my-2 d-none d-md-block">
+									to <span class="fw-bold">join</span> with us
+								</p>
+								<div class="btn border px-5">
+									<span class="text-uppercase text-nowrap my-1 mx-2"><a href="#">book a
+											table</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselFade"
+						data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselFade"
+						data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</section>
+			<section class="sec2 container-fluid g-0 py-5" id="sec2">
+				<div class="heading d-flex container justify-content-center pt-5">
+					<span class="story-heading">Our Story</span>
+				</div>
+				<div class="
+							description
+							d-flex
+							flex-wrap flex-lg-nowrap
+							container
+							my-3
+							pt-4
+						">
+					<p class="mx-4 drop-caps">
+						M dolor sit amet consectetur adipisicing elit. Sint adipisci ea,
+						facilis laboriosam laborum similique voluptatem nihil cupiditate
+						culpa! Quas ipsum, ad dolore vitae facilis ut ullam aliquam?
+						Totam, ipsam! Corporis, dolore perferendis. Aut, minus quos! Enim,
+						et saepe! Ad blanditiis voluptate tempora illo voluptates est
+						quidem facere Ad blanditiis voluptate tempora
+					</p>
+					<p class="mx-4 d-none d-md-block">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+						adipisci ea, facilis laboriosam laborum similique voluptatem nihil
+						cupiditate culpa! Quas ipsum, ad dolore vitae facilis ut ullam
+						aliquam? Totam, ipsam! Corporis, dolore perferendis. Aut, minus
+						quos! Enim, et saepe! Ad blanditiis voluptate tempora illo
+						voluptates est quidem facere
+					</p>
+				</div>
+				<div class="signature d-flex container my-4">
+					<img src="assets/about_sign.png" class="m-auto mb-4" alt="signature" />
+				</div>
+				<img src="assets/our story background.png" class="our_story_bg w-100 d-none d-lg-block" alt=""
+					data-aos="fade-up" />
+			</section>
+			<section class="sec3 container-fluid g-0 py-5" id="sec3">
+				<div class="
+							heading
+							d-flex
+							container
+							flex-column
+							justify-content-center
+							align-item-center
+							pt-5
+						">
+					<span class="story-heading m-auto">Special Package</span>
+				</div>
+				<div class="container my-3 pt-4 px-1">
+					<div id="carouselSec3" class="carousel slide mt-5" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselSec3" data-bs-slide-to="0"
+								class="carousel-btn active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselSec3" data-bs-slide-to="1"
+								class="carousel-btn" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselSec3" data-bs-slide-to="2"
+								class="carousel-btn" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner position-relative">
+							<div class="carousel-item active">
+								<img src="assets/promo_slide_1.jpg" class="d-block" alt="slide_1" data-aos="fade-right"
+									data-aos-delay="200" />
+								<div class="card" data-aos-delay="300">
+									<div class="card-body">
+										<h5 class="card-title">
+											40% off for 9"-12" pizza - Wed, <br />Thu, Fri only
+										</h5>
+										<p class="card-text">
+											Pizza 12 inch + 1 Slide Dish + 1.5L Coke Bottel Only<br />From
+											209.00
+										</p>
+										<a href="#" class="btn">Order Now</a>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="assets/promo_slide_2.jpg" class="d-block" alt="slide_2" />
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">
+											40% off for 9"-12" pizza - Wed, <br />Thu, Fri only
+										</h5>
+										<p class="card-text">
+											Pizza 12 inch + 1 Slide Dish + 1.5L Coke Bottel Only<br />From
+											209.00
+										</p>
+										<a href="#" class="btn">Order Now</a>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="assets/promo_slide_3.jpg" class="d-block" alt="slide_3" />
+								<div class="card">
+									<div class="card-body">
+										<h5 class="card-title">
+											40% off for 9"-12" pizza - Wed, <br />Thu, Fri only
+										</h5>
+										<p class="card-text">
+											Pizza 12 inch + 1 Slide Dish + 1.5L Coke Bottel Only<br />From
+											209.00
+										</p>
+										<a href="#" class="btn">Order Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="sec4 container-fluid g-0 py-5" id="sec4">
+				<div class="
+							heading
+							d-flex
+							container
+							flex-column
+							justify-content-center
+							align-item-center
+							pt-5
+						">
+					<span class="menu-heading m-auto">Today's Menu</span>
+				</div>
+				<div class="container my-3 pt-4 px-1 g-0">
+					<ul class="row menu-items-btns g-2 position-relative flex-wrap mt-5">
+						<li>
+							<button type="button" class="btn filter-btn active btn-outline-dark text-uppercase">
+								all
+							</button>
+						</li>
+						<li>
+							<button type="button" class="btn filter-btn btn-outline-dark text-uppercase">
+								brealfast
+							</button>
+						</li>
+						<li>
+							<button type="button" class="btn filter-btn btn-outline-dark text-uppercase">
+								lunch
+							</button>
+						</li>
+						<li>
+							<button type="button" class="btn filter-btn btn-outline-dark text-uppercase">
+								dinner
+							</button>
+						</li>
+						<li>
+							<button type="button" class="btn filter-btn btn-outline-dark text-uppercase">
+								coffe
+							</button>
+						</li>
+						<li>
+							<button type="button" class="btn filter-btn btn-outline-dark text-uppercase">
+								snaks
+							</button>
+						</li>
+					</ul>
+					<div class="
+								row row-cols-1 row-cols-md-2 row-cols-xxl-2
+								menu-items
+								m-auto
+								mt-5
+								g-3
+							" id="menu-items">
+						<div class="col menu-item-col" id="menu-item-col">
+							<div class="card bg-transparent border-0 shadow-sm" data-aos="zoom-in-right">
+								<div class="row g-0">
+									<div class="
+												col-sm-3 col-md-12 col-lg-4
+												text-center
+												mb-3 mb-sm-0 mb-md-3 mb-lg-0
+											">
+										<img src="assets/menu_1.jpg" class="img-fluid rounded-circle w-75" alt="..." />
+									</div>
+									<div class="col-sm-9 col-md-12 col-lg-8">
+										<div class="card-body">
+											<div class="d-flex flex-wrap mb-1">
+												<h5 class="card-title col text-nowrap me-3 mb-2">
+													Cupcake Recipies
+												</h5>
+												<span class="menu-card-price fw-bolder">$20.00</span>
+											</div>
+											<ul class="
+														row
+														menu-items-list
+														row-cols-auto
+														row-cols-sm-3
+														row-cols-xl-3
+														row-cols-xxl-3
+														gx-3
+														gy-0
+														g-sm-0
+														m-0
+														p-0
+														justify-content-between
+													">
+												<li class="col" data-aos="zoom-out-up">
+													-Juice Fruit
+												</li>
+												<li class="col" data-aos="zoom-out-up">-Checken</li>
+												<li class="col" data-aos="zoom-out-up">-Cherry</li>
+												<li class="col" data-aos="zoom-out-up">-Vegetable</li>
+												<li class="col" data-aos="zoom-out-up">-Milk</li>
+												<li class="col" data-aos="zoom-out-up">-Patato</li>
+												<li class="col" data-aos="zoom-out-up">-Tamato</li>
+												<li class="col" data-aos="zoom-out-up">-Chilli</li>
+												<li class="col" data-aos="zoom-out-up">-Sesame</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="sec5 container-fluid g-0 py-5" id="sec5">
+				<div class="
+							py-5
+							my-5
+							d-flex
+							container
+							flex-column
+							justify-content-center
+							align-item-center
+							pt-5
+						">
+					<span class="mx-auto mb-4">BOOK A TABLE NOW !</span>
+					<a href="#" class="btn mx-auto px-5 py-2" data-aos="zoom-in-up">BOOK NOW</a>
+				</div>
+			</section>
+			<section class="sec6 container-fluid g-0 py-5" id="sec6">
+				<div class="
+							heading
+							d-flex
+							container
+							flex-column
+							justify-content-center
+							align-item-center
+							pt-5
+						">
+					<span class="chefs-heading m-auto">Our chefs</span>
+				</div>
+				<div class="container my-3 pt-4 px-1">
+					<div class="
+								row
+								row-cols-2
+								row-cols-sm-2
+								row-cols-md-3
+								row-cols-lg-4
+								row-cols-xl-5
+								g-4
+								w-100
+								mx-0
+								mt-5
+							" id="chef-card-group">
+						<div class="col" data-aos="flip-left" data-aos-duration="200">
+							<div class="card h-100">
+								<img src="assets/team-1.jpg" class="card-img-top" alt="..." />
+
+								<div class="card-body">
+									<h5 class="card-title">Mark Angelila</h5>
+									<p class="card-text chefs-profile">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Voluptates vel suscipit
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col" data-aos="flip-left" data-aos-duration="250">
+							<div class="card h-100">
+								<img src="assets/team-2.jpg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5 class="card-title">Angel Masket</h5>
+									<p class="card-text chefs-profile">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Voluptates vel suscipit
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col" data-aos="flip-left" data-aos-duration="300">
+							<div class="card h-100">
+								<img src="assets/team-3.jpg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5 class="card-title">Jon Doe</h5>
+									<p class="card-text chefs-profile">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Voluptates vel suscipit
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col" data-aos="flip-left" data-aos-duration="350">
+							<div class="card h-100">
+								<img src="assets/team-4.jpg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5 class="card-title">Angel Di Maria</h5>
+									<p class="card-text chefs-profile">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Voluptates vel suscipit
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col" data-aos="flip-left" data-aos-duration="400">
+							<div class="card h-100">
+								<img src="assets/team-5.jpg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<h5 class="card-title">Park Ji Sung</h5>
+									<p class="card-text chefs-profile">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Voluptates vel suscipit
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="sec7 container-fluid g-0 py-5" id="sec7">
+				<div class="
+							heading
+							d-flex
+							container
+							flex-column
+							justify-content-center
+							align-item-center
+							pt-5
+						">
+					<span class="chefs-heading m-auto">Latest News</span>
+				</div>
+				<div class="container my-5 pt-4 px-1">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper w-auto">
+							<div class="card swiper-slide">
+								<img src="assets/blog-1.jpg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<div class="card-body-main">
+										<h5 class="card-title">Resturent welcoe day meetup</h5>
+										<p class="card-text">
+											Lorem ipsum dolor sit amet alskkjaskjabskj,bkj
+											lnksdlcknsdlkc,nsaldc,bnksja,consectetur, adipisicing
+											elit. Cumque, assumenda reprehenderit? Ea provident
+											numquam asperiores modi expedita beatae rem possimus in.
+										</p>
+									</div>
+									<div class="card-footer">
+										<small class="">Last updated 3 mins ago</small>
+									</div>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<img src="assets/blog-1.jpg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<div class="card-body-main">
+										<h5 class="card-title">Resturent welcoe day meetup</h5>
+										<p class="card-text">
+											Lorem ipsum dolor sit amet alskkjaskjabskj,bkj
+											lnksdlcknsdlkc,nsaldc,bnksja,consectetur, adipisicing
+											elit. Cumque, assumenda reprehenderit? Ea provident
+											numquam asperiores modi expedita beatae rem possimus in.
+										</p>
+									</div>
+									<div class="card-footer">
+										<small class="">Last updated 3 mins ago</small>
+									</div>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<img src="assets/blog-1.jpg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<div class="card-body-main">
+										<h5 class="card-title">Resturent welcoe day meetup</h5>
+										<p class="card-text">
+											Lorem ipsum dolor sit amet alskkjaskjabskj,bkj
+											lnksdlcknsdlkc,nsaldc,bnksja,consectetur, adipisicing
+											elit. Cumque, assumenda reprehenderit? Ea provident
+											numquam asperiores modi expedita beatae rem possimus in.
+										</p>
+									</div>
+									<div class="card-footer">
+										<small class="">Last updated 3 mins ago</small>
+									</div>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<img src="assets/blog-1.jpg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<div class="card-body-main">
+										<h5 class="card-title">Resturent welcoe day meetup</h5>
+										<p class="card-text">
+											Lorem ipsum dolor sit amet alskkjaskjabskj,bkj
+											lnksdlcknsdlkc,nsaldc,bnksja,consectetur, adipisicing
+											elit. Cumque, assumenda reprehenderit? Ea provident
+											numquam asperiores modi expedita beatae rem possimus in.
+										</p>
+									</div>
+									<div class="card-footer">
+										<small class="">Last updated 3 mins ago</small>
+									</div>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<img src="assets/blog-1.jpg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<div class="card-body-main">
+										<h5 class="card-title">Resturent welcoe day meetup</h5>
+										<p class="card-text">
+											Lorem ipsum dolor sit amet alskkjaskjabskj,bkj
+											lnksdlcknsdlkc,nsaldc,bnksja,consectetur, adipisicing
+											elit. Cumque, assumenda reprehenderit? Ea provident
+											numquam asperiores modi expedita beatae rem possimus in.
+										</p>
+									</div>
+									<div class="card-footer">
+										<small class="">Last updated 3 mins ago</small>
+									</div>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<img src="assets/blog-1.jpg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<div class="card-body-main">
+										<h5 class="card-title">Resturent welcoe day meetup</h5>
+										<p class="card-text">
+											Lorem ipsum dolor sit amet alskkjaskjabskj,bkj
+											lnksdlcknsdlkc,nsaldc,bnksja,consectetur, adipisicing
+											elit. Cumque, assumenda reprehenderit? Ea provident
+											numquam asperiores modi expedita beatae rem possimus in.
+										</p>
+									</div>
+									<div class="card-footer">
+										<small class="">Last updated 3 mins ago</small>
+									</div>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<img src="assets/blog-1.jpg" class="card-img-top" alt="..." />
+								<div class="card-body">
+									<div class="card-body-main">
+										<h5 class="card-title">Resturent welcoe day meetup</h5>
+										<p class="card-text">
+											Lorem ipsum dolor sit amet alskkjaskjabskj,bkj
+											lnksdlcknsdlkc,nsaldc,bnksja,consectetur, adipisicing
+											elit. Cumque, assumenda reprehenderit? Ea provident
+											numquam asperiores modi expedita beatae rem possimus in.
+										</p>
+									</div>
+									<div class="card-footer">
+										<small class="">Last updated 3 mins ago</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-next-btn">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						</div>
+						<div class="swiper-prev-btn">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="sec8 container-fluid g-0 py-5" id="sec8">
+				<div class="
+							heading
+							d-flex
+							container
+							flex-column
+							justify-content-center
+							align-item-center
+							pt-5
+						">
+					<span class="heading m-auto">Gallery</span>
+				</div>
+				<div class="container" style="height: 110px"></div>
+			</section>
+		</main>
+
+		<footer class="container-fluid g-0 pt-5" id="footer">
+			<div class="
+						heading
+						d-flex
+						container
+						flex-column
+						justify-content-center
+						align-item-center
+						pt-5
+					">
+				<img src="assets/main_logo.png" alt="footer_logo" class="m-auto" />
+			</div>
+			<div class="footer-container mt-5 pt-2 px-1 text-center">
+				<p class="footer-address">
+					20, floor, Queensland Victoria Building, 60 california street
+					california USA
+				</p>
+				<p class="footer-email">hello@dawat.com</p>
+				<p class="footer-phone">+88 000 0000 1111</p>
+
+				<div class="footer-icons my-5 pt-2">
+					<ul class="row">
+						<li><i class="fab fa-facebook-f fa-lg fa-fw"></i></li>
+						<li><i class="fab fa-twitter fa-lg fa-fw"></i></li>
+						<li><i class="fab fa-dribbble fa-lg fa-fw"></i></li>
+						<li><i class="fab fa-google-plus-g fa-lg fa-fw"></i></li>
+						<li><i class="fab fa-flickr fa-lg fa-fw"></i></li>
+						<li><i class="fab fa-pinterest fa-lg fa-fw"></i></li>
+						<li><i class="fab fa-skype fa-lg fa-fw"></i></li>
+					</ul>
+				</div>
+				<hr class="m-0" />
+				<div class="terms-rights">
+					<div class="row g-0">
+						<div class="col-12 col-md-6" style="z-index: inherit">
+							<ul class="d-flex flex-wrap">
+								<li class="">
+									<p>Terms of use</p>
+								</li>
+								<li class="">
+									<p>Privacy Policy</p>
+								</li>
+								<li class="">
+									<p>SiteMap</p>
+								</li>
+								<li class="">
+									<p>Contact</p>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-12 col-md-6" style="z-index: inherit">
+							<p class="">
+								&copy;2017
+								<span class="footer-span">Dawat Resturant</span> All Right
+								Reserved.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- <hr class="m-0 bg-transparent"> -->
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/index.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script>
+		AOS.init();
+		var swiper = new Swiper('.mySwiper', {
+			slidesPerView: '1',
+			centeredSlides: true,
+			spaceBetween: 20,
+			autoplay: {
+				delay: 2500,
+				disableOnInteraction: false,
+			},
+			navigation: {
+				nextEl: '.swiper-next-btn',
+				prevEl: '.swiper-prev-btn',
+			},
+			breakpoints: {
+				470: {
+					slidesPerView: 2,
+					spaceBetween: 10,
+					centeredSlides: true,
+				},
+				500: {
+					slidesPerView: 2,
+					spaceBetween: 10,
+					centeredSlides: true,
+				},
+				575: {
+					slidesPerView: 2,
+					spaceBetween: 10,
+					centeredSlides: true,
+				},
+				991: {
+					slidesPerView: 3,
+					spaceBetween: 15,
+					centeredSlides: false,
+				},
+				1024: {
+					slidesPerView: 3,
+					spaceBetween: 20,
+					centeredSlides: false,
+				},
+			},
+		});
+	</script>
+</body>
+
+</html>
